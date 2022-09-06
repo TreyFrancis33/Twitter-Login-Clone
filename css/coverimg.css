@@ -1,0 +1,16 @@
+.logo-one {
+    width: 828px;
+    height: 733px;
+    position: relative;
+    background: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png);
+}
+
+.big-bird {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    fill: white;
+}

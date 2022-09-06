@@ -1,0 +1,158 @@
+.main {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90px 150px 100px 1fr;
+    padding-left: 35px;
+}
+
+.logo-two {
+    padding-top: 29px;
+}
+
+.small-bird {
+    width: 45px;
+    height: 57px;
+    fill: lightgray;
+}
+
+.small-bird path {
+    width: 42.57px;
+    height: 34.6px;
+}
+
+.text {
+    color: white;
+    font-size: 72px;
+    position: relative;
+}
+
+.text-two {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.text p, .text-two p {
+    position: absolute;
+    bottom: 10px;
+}
+
+.sign-up {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(2,50px) 30px 50px 90px;
+}
+
+.sign-up button {
+    height: 42px;
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    letter-spacing: 0.5px;
+}
+
+.sign-up button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.sign-up p {
+    color: grey;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: -5px;
+    letter-spacing: 0.25px;
+    line-height: 1;
+}
+
+.sign-up a {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.google-logo {
+    width: 18px;
+    height: 18px;
+}
+
+
+.google {
+    font-family: 'Noto Sans Balinese', sans-serif;
+}
+
+.apple-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.apple-logo, .google-logo {
+    margin-right: 5px;
+}
+
+.apple {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.phone-or-email {
+    background-color: rgb(29, 155, 240);
+    font-family: inherit;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.phone-or-email:hover {
+    background-color: rgba(29, 155, 240,0.9);
+}
+
+.sign-up span {
+    color: white;
+    height: 30px;
+    font-weight: 400;
+}
+
+.sign-up span:after,
+.sign-up span:before {
+    content:"\00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    color: rgb(69, 69, 69);
+}
+
+
+.sign-up h4 {
+    color: white;
+    font-size: 17px;
+    height: 20px;
+}
+
+.sign-in {
+    width: 300px;
+    margin-top: 20px;
+    background-color: black;
+    color: rgb(29,155,240);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid lightgray;
+}
+
+.sign-in:hover {
+    background-color: rgba(29, 155, 240,0.12);
+}

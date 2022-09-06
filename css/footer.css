@@ -1,0 +1,29 @@
+footer {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 50px 10px 50px;
+}
+
+nav span {
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+    line-height: 2;
+    font-weight: 400;
+    color: rgb(113,118,123);
+}
+
+nav a {
+    color: rgb(113,118,123);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
